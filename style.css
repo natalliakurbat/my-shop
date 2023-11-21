@@ -1,0 +1,159 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Caveat', cursive;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    background: #FFE6F7;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.text {
+    font-size: 25px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.search {
+    justify-content: center;
+}
+
+.nav a,
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav input:focus {
+    outline-style: solid;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.site-search {
+    display: flex;
+}
+
+.site-search input {
+    border: 1px solid;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+#shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.shop-item {
+    width: calc(25% - 17px);
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid;
+}
+
+.shop-item .content {
+    padding: 10px 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+.shop-item img {
+    width: 100%;
+    height: 200px;
+    flex-shrink: 3;
+    object-fit: cover;
+}
+
+.shop-item h1 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.shop-item p {
+    margin-top: 0;
+}
+
+.shop-item .price {
+    background-color: #FFE6F7;
+    padding: 4px 8px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-top: auto;
+}
+
+.shop-item .footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*.shop-item .rating {
+    cursor: pointer;
+    color: var(--dark);
+}*/
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#nothing-found {
+    color: #99001A;
+    font-size: 30px;
+    position: absolute;
+    white-space: nowrap;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
