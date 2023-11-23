@@ -104,7 +104,6 @@ footer a {
 }
 
 .shop-item h1 {
-    font-size: 20px;
     margin-top: 0;
 }
 
@@ -113,6 +112,7 @@ footer a {
 }
 
 .shop-item .price {
+    font-size: 20px;
     background-color: #FFE6F7;
     padding: 4px 8px;
     font-weight: 500;
@@ -129,11 +129,9 @@ footer a {
     align-items: center;
 }
 
-
-/*.shop-item .rating {
-    cursor: pointer;
-    color: var(--dark);
-}*/
+.shop-item .footer i {
+    font-size: 20px;
+}
 
 footer {
     text-align: center;

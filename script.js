@@ -115,10 +115,17 @@ const searchInput = document.querySelector("#search-input"); //обращаем�
 
 function applySearch() {
     const searchString = searchInput.value.trim().toLowerCase(); //в тексте удаляем пробелы по бокам и приводим к нижнему регистру
+    //проверяем ли searchString есть ли в наших массиве товарах  и предварительно приводим к нижнему регистру:
+    currentState = items.filter((el) => el.title.toLowerCase().includes(searchString));
 
+    currentState.sort((a, b) => sortByAlphabet(a, b)); // отсортировали их по алфавиту 
 
+    sortControl.selectedIndex = 0; //сбрасываем ранее выбранную опцию сортировки на "по алфавиту"
+
+    renderItems(currentState); //после упорядочевания массива отрисовываем 
 }
 
+searchInput.addEventListener("search", applySearch); // Обработчик события поиска при взаимодействии с инпутом
 
 //Пятый шаг:
 const sortControl = document.querySelector("#sort"); //обращаемся к селекту сортировки товаров

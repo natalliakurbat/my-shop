@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/51dd29b670.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +24,8 @@
                     <a href="#shop-items" class="text">Каталог</a>
                 </li>
                 <li>
-                    <a href="#contacts" class="text">Корзина</a>
+                    <a href="#" id="basket" class="text">
+                        <i class="fa-solid fa-basket-shopping"></i>Корзина</a>
                 </li>
             </ul>
         </nav>
@@ -52,16 +54,16 @@
         <a href="#" class="logo">Магазин для флориста</a>
     </footer>
     <template id="item-template">
-      <div class="shop-item">
-        <img src="">
-        <div class="content">
-          <h1></h1>
+        <div class="shop-item">
+            <img src="">
+            <div class="content">
+                <h1></h1>
+            </div>
+            <div class="footer">
+                <span class="price"></span>
+                <i class="fa-solid fa-basket-shopping"></i>
+            </div>
         </div>
-        <div class="footer">
-          <span class="price"></span>
-        </div>
-      </div>
-      </div>
     </template>
     <script src="script.js"></script>
 </body>
