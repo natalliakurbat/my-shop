@@ -1,62 +1,62 @@
 const items = [{
         title: "Цветы Розы",
         price: 4.5,
-        img: "./img/rozy.jpg",
+        img: "./img/Rozy.jpg",
     },
     {
         title: "Бумага гофрированая",
         price: 3,
-        img: "./img/bumaga_gofrirovana.jpg",
+        img: "./img/Bumaga_gofrirovana.jpg",
     },
     {
         title: "Цветы Каллы",
         price: 5,
-        img: "./img/kally.jpg",
+        img: "./img/Kally.jpg",
     },
     {
         title: "Коробки",
         price: 6,
-        img: "./img/korobki.jpg",
+        img: "./img/Korobki.jpg",
     },
     {
         title: "Крафтовая бумага",
         price: 2.5,
-        img: "./img/kraft.jpg",
+        img: "./img/Kraft.jpg",
     },
     {
         title: "Ленты",
         price: 2,
-        img: "./img/lenty.png",
+        img: "./img/Lenty.png",
     },
     {
         title: "Цветы Лилии",
         price: 5,
-        img: "./img/lilii.jpg",
+        img: "./img/Lilii.jpg",
     },
     {
         title: "Цветы Пионы",
         price: 4.5,
-        img: "./img/piony.jpg",
+        img: "./img/Piony.jpg",
     },
     {
         title: "Цветы Ромашки",
         price: 3,
-        img: "./img/romashki.jpg",
+        img: "./img/Romashki.jpg",
     },
     {
         title: "Цветы Розы Кустовые",
         price: 4,
-        img: "./img/rozy_kustovyje.jpg",
+        img: "./img/Rozy_kustovyje.jpg",
     },
     {
         title: "Цветы Тюльпаны",
         price: 2.5,
-        img: "./img/tulpany.jpg",
+        img: "./img/Tulpany.jpg",
     },
     {
         title: "Зелень для цветов",
         price: 3,
-        img: "./img/zelen.jpg",
+        img: "./img/Zelen.jpg",
     },
 ];
 
